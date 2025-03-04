@@ -1,0 +1,15 @@
+.row.flex-nowrap.overflow-auto {
+  scrollbar-width: none; /* For Firefox */
+  -ms-overflow-style: none; /* For Internet Explorer and Edge */
+}
+
+.row.flex-nowrap.overflow-auto::-webkit-scrollbar {
+  display: none; /* For Chrome, Safari, and Opera */
+}
+
+.inner-shadow {
+  -webkit-box-shadow: inset -8px -36px 36px -11px rgba(0, 0, 0, 0.77);
+  box-shadow: inset -8px -36px 36px -11px rgba(0, 0, 0, 0.77);
+}
+
+

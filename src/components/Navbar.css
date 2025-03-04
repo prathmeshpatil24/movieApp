@@ -1,0 +1,40 @@
+.navbar {
+    border-bottom: 2px solid #ff0; /* Add a border for a cinematic feel */
+    box-shadow: 0 0 10px rgb(6, 6, 6), 0 0 20px rgb(6, 6, 4), 0 0 100px rgb(2, 2, 2) !important; /* Glowing effect */
+    backdrop-filter: blur(8px); /* Semi-transparent background */
+    background-color: rgba(0, 0, 0, 0.5) !important; /* Semi-transparent background */
+    /* transition: backdrop-filter 0.3s ease, background-color 0.3s ease; */
+}
+
+
+
+.nav-link {
+    color: #fff !important; /* White text */
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #ff0 !important; /* Yellow text on hover */
+    transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
+.form-control {
+    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+    border: 1px solid #ff0; /* Yellow border */
+    color: #fff; /* White text */
+}
+
+.form-control::placeholder {
+    color: #ccc; /* Light gray placeholder */
+}
+
+.btn-outline-success {
+    border-color: #ff0; /* Yellow border */
+    color: #ff0; /* Yellow text */
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-outline-success:hover {
+    background-color: #ff0; /* Yellow background on hover */
+    color: #000; /* Black text on hover */
+}
